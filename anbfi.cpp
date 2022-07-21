@@ -6,9 +6,8 @@ unsigned char arr[30000];
 short i = 0;
 
 void check_code(string code){
-    for(int j = 0; j < code.length(); j ++){
-        switch (code[j])
-        {
+    for(int j = 0; j < code.length(); j ++) {
+        switch (code[j]) {
         case '+':
             arr[i] ++;
             break;
